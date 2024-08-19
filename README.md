@@ -1,5 +1,6 @@
 # Basic-AMM
 ***Descripción del Código:***
+
 **1. Tokens Soportados:** El contrato permite intercambiar entre dos tokens ERC20 especificados en la implementación (tokenA y tokenB).
 
 **2. Provisión de Liquidez:** Los usuarios pueden proporcionar liquidez depositando una cantidad equivalente de tokenA y tokenB al contrato. La liquidez proporcionada se les asigna en forma de "shares" proporcionales a la cantidad depositada.
@@ -14,6 +15,7 @@
 **6. Eventos:** Se emiten eventos para la provisión de liquidez, el retiro de liquidez y los intercambios, permitiendo a los usuarios rastrear estas acciones en la blockchain.
 
 ***Consideraciones:***
+
 **1. Seguridad:** Este contrato es un ejemplo simple y no incluye todas las consideraciones de seguridad necesarias para un AMM en producción. En un entorno real, deberías considerar auditorías exhaustivas, manejo de errores y protección contra vulnerabilidades como ataques de front-running.
 
 **2. Optimización de Gas:** En un contrato de producción, la eficiencia del gas es crucial, y hay optimizaciones adicionales que se pueden aplicar.
